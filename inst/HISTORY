@@ -1,0 +1,28 @@
+2003-06-20 - Version 0.0-1
+--------------------------
+
+Added functionality
+
+- coalescent simulations (treesim)
+- LD plots (LDmat)
+- population differentiation (popdiv)
+- parametric population structure function (ps)
+- non-parametric population structure function (nps, nps.plot)
+- simulate data from Multinomial-Dirichlet model (simMD)
+
+2003-09-09 - Version 0.0-2
+--------------------------
+
+Fixed bug in C++ source code of function treesim
+
+
+2003-04-06 - Version 0.0-3
+--------------------------
+
+Added genotype option to LDmat
+
+
+2003-05-04 - Version 0.0-4
+--------------------------
+
+Added hierarchical option to simMD

@@ -1,0 +1,53 @@
+R Package - popgen
+
+INTRODUCTION
+
+This file explains how to install the R package popgen. I assume
+that you have a basic knowledge of UNIX/LINUX and that you already
+have R installed on your machine.
+
+If you have any problems/suggestions using this package, please email
+me on marchini@stats.ox.ac.uk
+
+INSTALLATION
+
+1. Download the g-zipped tar archive  popgen_*.*-*.tar.gz
+
+2.  Install the package using     
+
+	R CMD INSTALL -l /path/to/LIB popgen_*.*-*.tar.gz
+
+/path/to/LIB should be the library directory where you wish to put the package.
+
+If you have root access to your machine then use 
+
+	R CMD INSTALL popgen_*.*-*.tar.gz
+
+and the package will be put into the default R library tree.
+
+5. You can then start an R session and load the package using
+
+	library(popgen, lib.loc="/path/to/LIB")
+
+or 
+
+ library(popgen) 
+
+(if you installed the package into the default R library tree)
+
+
+FUNCTIONS
+
+The package contains the following functions 
+
+    
+
+PROBLEMS/SUGGESTIONS
+
+If you have any problems/suggestions using this package, please email
+me on marchini@stats.ox.ac.uk
+
+
+
+
+

@@ -1,0 +1,10 @@
+LDmat                   Calculate LD measures for haplotype data.
+nps                     Non-parametric clustering of SNP genotype data.
+nps.plot                Gap statistic plot for nps function
+popdiv                  Population diversity function
+popdiv.convert          Convert a dataset for use in function popdif.
+ps                      Parametric model-based inference of population
+                        structure.
+simMD                   Simulate multi-population unlinked genotype
+                        data from a Multinomial-Dirichlet model.
+treesim                 Standard neutral coalescent simulator
