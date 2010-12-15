@@ -137,7 +137,7 @@ popdiv(L, P, NUMA, N, X, burnin = 10000, iter = 10000, m = 300, csd = 0.01, outc
  ## Simulated dataset from the Multinomial-Dirichlet model.
  ## 100 loci, 3 populations.
  ## Variance parameters set to 0.01, 0.02, 0.04.
- ## Each loci has a variable number of alleles (between 3 and 8)).
+ ## Each loci has a variable number of alleles (between 3 and 8).
  ## Dataset stored in the following format :-
  ##  - each individuals genotypes are stored in 2 rows of the file.
  ##  - the first entry in each row specifies the individuals population.
@@ -157,6 +157,6 @@ popdiv(L, P, NUMA, N, X, burnin = 10000, iter = 10000, m = 300, csd = 0.01, outc
  lines(1:100, res1$C.sample[, 2], col = 2)
  lines(1:100, res1$C.sample[, 3], col = 3)
 
-  }
+  
 }
 \keyword{utilities}

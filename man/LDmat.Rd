@@ -27,24 +27,4 @@ LDmat(mat, typ = c("genotype", "haplotype"), pos = NULL, plotmat = TRUE)
 \references{B. S. Weir (1996) Genetic Data Analysis II. Sinauer}
 \author{Jonathan Marchini}
 
-\examples{
-
- n <- 20
- Sn <- 1000
- theta <- 20
- rho.vec <- c(rep(0, 200), rep(2000, 500), rep(4000, 300))
- a <- treesim(n, Sn, theta, rho.vec, mutations = TRUE, sample = TRUE)
-
- mat1 <- LDmat(a$sample, typ = "haplotype", pos = a$mutations)
-
- b = matrix(0, nrow(a$sample) / 2, ncol(a$sample))
- for(i in 1:(nrow(a$sample) / 2)) {
-  b[i, ] = (a$sample)[(i-1)*2 + 1, ] + (a$sample)[(i-1)*2 + 2, ]
- }
-
- mat2 <- LDmat(b, typ = "genotype", pos = a$mutations)
-
-
-
-}
 \keyword{utilities}
