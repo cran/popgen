@@ -32,7 +32,7 @@ popdiv.convert(x, miss = 0)
 
 \examples{
 
- ex <- read.table(paste(.libPaths(), "popgen", "example_data2", sep = .Platform$file.sep))
+ ex <- read.table(system.file("example_data2", package = "popgen")) 
  X <- matrix(unlist(ex), nrow(ex), ncol(ex), byrow = FALSE)
 
  X1 <- popdiv.convert(X)

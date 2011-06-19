@@ -1,6 +1,6 @@
 Package: popgen
-Version: 1.0-0
-Date: 2010-12-15
+Version: 1.0-1
+Date: 2011-06-19
 Title: Statistical and Population Genetics
 Author: J L Marchini <marchini@stats.ox.ac.uk>
 Maintainer: J L Marchini <marchini@stats.ox.ac.uk>
@@ -9,6 +9,6 @@ Description: A package that implements a variety of statistical and
         population genetic methodology.
 License: GPL (>= 2)
 URL: http://www.stats.ox.ac.uk/~marchini/software.html
-Packaged: 2010-12-15 23:53:58 UTC; marchini
+Packaged: 2012-10-29 08:59:29 UTC; ripley
 Repository: CRAN
-Date/Publication: 2010-12-16 09:31:33
+Date/Publication: 2012-10-29 08:59:29

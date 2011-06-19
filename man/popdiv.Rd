@@ -145,7 +145,7 @@ popdiv(L, P, NUMA, N, X, burnin = 10000, iter = 10000, m = 300, csd = 0.01, outc
  ## To examine the datafile use edit(ex2)
 
  
- ex2 <- read.table(paste(.path.package("popgen"), "example_data2", sep = .Platform$file.sep))
+ ex2 <- read.table(system.file("example_data2", package = "popgen")) 
  X <- matrix(unlist(ex2), nrow(ex2), ncol(ex2), byrow = FALSE)
 
  X1 <- popdiv.convert(X)
