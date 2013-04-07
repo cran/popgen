@@ -114,7 +114,7 @@ popdiv(L, P, NUMA, N, X, burnin = 10000, iter = 10000, m = 300, csd = 0.01, outc
 
  ## SNP dataset from Nicholson et al. (2002). 66 loci, 4 populations 
 
- ex1 <- read.table(paste(.path.package("popgen"), "example_data1", sep = .Platform$file.sep))
+ ex1 <- read.table(system.file("example_data1", package = "popgen")) 
  ex1 <- matrix(unlist(ex1), 66, 13, byrow = FALSE)
  NUMA <- ex1[,1]
  N <- ex1[, 2:5]

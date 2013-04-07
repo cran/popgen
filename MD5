@@ -1,4 +1,4 @@
-9a1ce487d26cdeda064392ea5ec50383 *DESCRIPTION
+e1d825e58a887b95e6dea7cc0af7d64a *DESCRIPTION
 f28888603475fedcb0599ed4bd60b0f8 *INDEX
 8179a6d33112b1b553bc9dd52f7c6d4f *NAMESPACE
 33346cacd8a87936baabc65c93cb4620 *R/LD.r
@@ -12,7 +12,7 @@ fa743785bd281f04036594e2c82ebc7c *inst/example_data2
 9ebb0ef80ae28a1c3fceacb0eab702f7 *man/LDmat.Rd
 6ca13d0cc3cf48db04b7a15dc7a98dab *man/nps.Rd
 441858d72863aa9885b22de581acc6f9 *man/nps.plot.Rd
-659e2bd9d4b0edcd668af365d9322b31 *man/popdiv.Rd
+115f3f6d878e3c3a3b82485688b94b7b *man/popdiv.Rd
 3167488e0c8e972304adcd3986fd00bb *man/popdiv.convert.Rd
 836ebda91bc22ba2a43d02c88374e39c *man/ps.Rd
 525a3dff0d5365f6abe0e23b79a689d4 *man/simMD.Rd
